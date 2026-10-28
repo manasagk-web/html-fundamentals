@@ -1,0 +1,44 @@
+a{
+    font-size: 100px;
+    color: black;
+    text-decoration: none;
+}
+body{
+    height: 50vh;
+    margin:0;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    position:fixed;
+    width: 100%;
+}
+   
+img{
+    height:400px;
+    width:400px;
+}
+video{ 
+    height:400px;
+    width: 400px;
+}
+section{
+    height: 100vh;
+    width: 100vw;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+div{
+    border: 2px solid black;
+    background-color:  lightblue;
+    border-radius: 25px;
+    transition: all 1s ease-in-out;
+}
+div:hover{
+    scale: 200%;
+    rotate: -30deg;
+    transition: all 1s ease-in-out;
+}
